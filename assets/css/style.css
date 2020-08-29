@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+/* font-family: 'Alata', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    /* text-transform: uppercase; */
+    text-align: left;
+    color: green;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    letter-spacing: 0.6rem;
+}
+
+h1.pnn-tag {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.hide {
+    display: none;
+}
+
+a, .btn {
+    outline: none;
+    cursor: pointer;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+form > * {
+    display: flex;
+    line-height: 1rem;
+
+}
+
+label {
+    margin-top: 5px;
+}
+
+div.check {
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 250px;
+    display: inline-block;
+}
+
+
+.done-today {
+    color:lightblue;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+
+input {
+    overflow: visible;
+    border: none;
+    /* border-top: 3px solid green; */
+    border-bottom: 3px solid green;
+    margin-left: 20px;
+    font-style: italic;
+    color: green;
+    width: 100%;
+    text-align: center;
+}
+
+    input.odbtn {
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: 3px solid blue;
+}
+
+input.odbtn:hover {
+    opacity: 0.5;
+}
+
+input.odbtn.past-due-btn {
+    background-color: red;
+    border: none;
+}
+
+@keyframes blink {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+input[type=file] {
+    border: none;
+}
+
+#index-add-foliage {
+    position: absolute;
+    top: 40%;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+li.nav-item a.nav-link {
+    color: green;
+}
+
+div#wq.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form div#yw, form div#nw {
+    display: none;
+}
+
+.pic-upld {
+    padding-top: 5px;
+    border-bottom: 3px solid green;
+    /* border-top: 3px solid green; */
+}
+
+.add-btn-tag{
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.add-btn-tag:hover {
+    border: 3px solid green;
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+
+input#add-new-btn {
+    border: 3px solid green;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+input#add-new-btn:hover {
+    color: white;
+    background-color: green;
+}
+
+
+.pic-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid green;
+    border-bottom: 5px solid green;
+}
+
+.plant-prof-pic {
+    width: 300px;
+    height: auto;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.container {
+    padding: 10px;
+}
+
+.tag {
+    display: inline-block;
+}
+
+.card {
+    border: 1px solid green;
+    opacity: 0.3;
+    margin-left: 50px;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.name-tag, .pnn-tag {
+    text-align: center;
+}
+
+.dheader {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+
+div.dl {
+    margin: 30px;
+}
+
+#jc.dheader, #ct.dheader {
+    color: grey;
+}
+
+/* PAST DUE HEADER */
+#pd {
+    color: red;
+    animation: blink 0.5s linear infinite;
+}
+
+.list-group, .list-group-item {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-btn, .update-confirm-btn {
+    background-color: green;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    color:white;
+}
+
+.update-btn:hover, .update-confirm-btn:hover {
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+
+.delete-btn, .delete-confirm-btn {
+    background-color: yellow;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    color: green;
+}
+
+.delete-btn:hover, .delete-confirm-btn:hover {
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}

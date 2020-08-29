@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RedirectMatch 404 /\..*$
+Options All -Indexes
+Options -MultiViews
+Options +FollowSymLinks
+AddDefaultCharset UTF-8
+ServerSignature Off
+FileETag none
+LimitRequestBody 1048576

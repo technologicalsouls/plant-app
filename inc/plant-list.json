@@ -1,0 +1,240 @@
+{
+  "Foliage": {
+    "fq": 7,
+    "mist": 3,
+    "light": "Medium",
+    "uid": {
+        "f0": {
+          "pv": "Mystery Plant",
+          "sn": "Planta mysterium"
+          },
+        "f1": {
+          "pv": "Chinese Evergreen",
+          "sn": "Aglaonema commutatum"
+          },
+        "f2": {
+          "pv": "Cat Palm Tree",
+          "sn": "Chamaedorea cataractarum"
+        },
+        "f3": {
+          "pv": "Parlor Palm",
+          "sn": "Chamaedorea elegans"
+        },
+        "f4": {
+          "pv": "European Fan Palm",
+          "sn": "Chamaerops humilis"
+        },
+        "f5": {
+          "pv": "Spider Plant",
+          "sn": "Chlorophytum comosum"
+        },
+        "f6": {
+          "pv": "Dumb Cane",
+          "sn": "Dieffenbachia"
+        },
+        "f7": {
+          "pv": "Janet Craig",
+          "sn": "Dracaena deremensis"
+        },
+        "f8": {
+          "pv": "Corn Plant",
+          "sn": "Dracaena fragrans"
+        },
+        "f9": {
+          "pv": "Dragon Tree",
+          "sn": "Dracaena marginata"
+        },
+        "f10": {
+          "pv": "Pleomele",
+          "sn": "Dracaena reflexa"
+        },
+        "f11": {
+          "pv": "Lucky Bamboo",
+          "sn": "Dracaena sanderiana"
+        },
+        "f12": {
+          "pv": "Weeping Fig",
+          "sn": "Ficus benjamina"
+        },
+        "f13": {
+          "pv": "Ficus Alii",
+          "sn": "Ficus binnendiijkii 'Alii'"
+        },
+        "f14": {
+          "pv": "Rubber Plant",
+          "sn": "Ficus elastica"
+        },
+        "f15": {
+          "pv": "Fiddle Leaf Fig",
+          "sn": "Ficus lyrata"
+        },
+        "f16": {
+          "pv": "Creeping Fig",
+          "sn": "Ficus pumila"
+        },
+        "f17": {
+          "pv": "English Ivy",
+          "sn": "Hedera helix"
+        },
+        "f18": {
+          "pv": "Swiss Cheese Plant",
+          "sn": "Monstera deliciosa"
+        },
+        "f19": {
+          "pv": "Boston Fern",
+          "sn": "Nephrolepsis exaltata"
+        },
+        "f20": {
+          "pv": "ZZ Plant",
+          "sn": "Zamioculcas zamiifolia"
+        },
+        "f21": {
+          "pv": "Umbrella Tree",
+          "sn": "Schefflera actinophylla"
+        },
+        "f22": {
+          "pv": "Split-Leaf Philodendron",
+          "sn": "Philodendron bipinnatifidum"
+        },
+        "f23": {
+          "pv": "Heartleaf Philodendron",
+          "sn": "Philodendron scandens"
+        },
+        "f24": {
+          "pv": "Pygmy Date Palm",
+          "sn": "Phoenix roebelenii"
+        },
+        "f25": {
+          "pv": "English Ivy",
+          "sn": "Hedera helix"
+        },
+        "f26": {
+          "pv": "Money Tree Plant",
+          "sn": "Pachira aquatica"
+        },
+        "f27": {
+          "pv": "Majesty Palm",
+          "sn": "Ravenea"
+        }
+    }
+  },
+  "Succulent":{
+    "fq": 21,
+    "mist": "no",
+    "light": "medium/high",
+    "uid": {
+      "s0": {
+        "pv": "Mystery Succulent",
+        "sn": "Suculentus mysterium"
+      },
+      "s1": {
+        "pv": "Aloe Vera",
+        "sn": "Aloe barbadensis"
+      },
+      "s2": {
+        "pv": "Blue Agave Plants",
+        "sn": "Agave parryi"
+      },
+      "s3": {
+        "pv": "Cactus",
+        "sn": "Cactaceae family"
+      },
+      "s4": {
+        "pv": "Christmas Cactus",
+        "sn": "Schlumbergera hybrids"
+      },
+      "s5": {
+        "pv": "Crown of Thorns",
+        "sn": "Euphorbia milii"
+      },
+      "s6": {
+        "pv": "Cylindrical Snake Plant",
+        "sn": "Sansevieria cylindrica"
+      },
+      "s7": {
+        "pv": "Desert Rose Plant",
+        "sn": "Adenium obesum"
+      },
+      "s8": {
+        "pv": "Donkey's Tail",
+        "sn": "Sedum morganianum"
+      },
+      "s9": {
+        "pv": "Easter Cactus",
+        "sn": "Hatiora gaertneri"
+      },
+      "s10": {
+        "pv": "Echeveria",
+        "sn": "Echeveria species"
+      },
+      "s11": {
+        "pv": "Flaming Katy",
+        "sn": "Kalanchoe blossfeldiana"
+      },
+      "s12": {
+        "pv": "Gasteria",
+        "sn": "Gasteria Sp."
+      },
+      "s13": {
+        "pv": "Haworthia",
+        "sn": "Haworthia species"
+      },
+      "s14": {
+        "pv": "Jade Plant",
+        "sn": "Crassula ovata"
+      },
+      "s15": {
+        "pv": "Living Stones",
+        "sn": "Lithops species"
+      },
+      "s16": {
+        "pv": "Madagascar Palm",
+        "sn": "Pachypodium lamerei"
+      },
+      "s17": {
+        "pv": "Mistletoe Cactus",
+        "sn": "Rhipsalis baccifera"
+      },
+      "s18": {
+        "pv": "Mother of Thousands",
+        "sn": "Kalanchoe daigremontiana"
+      },
+      "s19": {
+        "pv": "Orchid Cactus",
+        "sn": "Epiphyllum species and hybrids"
+      },
+      "s20": {
+        "pv": "Paddle Plant",
+        "sn": "Kalanchoe thyrsiflora"
+      },
+      "s21": {
+        "pv": "Panda Plant",
+        "sn": "Kalanchoe tomentosa"
+      },
+      "s22": {
+        "pv": "Ponytail Palm",
+        "sn": "Beaucarnea recurvata"
+      },
+      "s23": {
+        "pv": "String of Pearls",
+        "sn": "Senecio rowleyanus"
+      },
+      "s24": {
+        "pv": "Sedum rubrotinctum or Jelly Bean Plant",
+        "sn": "Sedum rubrotinctum"
+      },
+      "s25": {
+        "pv": "Thanksgiving Cactus",
+        "sn": "Schlumbergera truncata"
+      },
+      "s26": {
+        "pv": "Tiger's Jaw",
+        "sn": "Faucaria tigrina"
+      },
+      "s27": {
+        "pv": "Yucca",
+        "sn": "Yucca elephantipes"
+      }
+    }
+  }
+}
